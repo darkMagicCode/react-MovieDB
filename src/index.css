@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat+Alternates:ital@1&family=Open+Sans&display=swap');
+
+:root{
+  --bg-color:#121231;
+  --font-family: 'Montserrat Alternates', sans-serif;;
+  --font-color:#fff;
+}
+
+html,body {
+  background-color: var(--bg-color);
+      overflow-x: hidden; 
+      font-family: var(--font-family);
+      color: var(--font-color);
+      font-weight: 400;
+      padding-right: 0 !important;
+    }
+    *{
+text-transform: capitalize;
+
+}
+
+h1, h2, h3, h4, h5, h6, .logo {
+      font-family: var(--font-family);
+}
+a{
+  text-decoration: none;
+  color: var(--font-color);
+
+}
+
+.main-color {
+  color: var(--font-color);
+}
+.bg-main-color {
+  background-color: var(--bg-color);
+}
+.cur{
+  cursor: pointer;
+}
+.noncur{
+cursor: auto;
+}
+.bg-img-owl{
+  height: 80vh;
+  background-image: url("https://image.tmdb.org/t/p/w500//noRVimjdx6PwPBCVikhExYqogsX.jpg");
+  background-position: center center ;
+  background-repeat: no-repeat;
+  background-size: cover ;
+  /* display: flex;
+  justify-content: center;
+  align-items: flex-end; */
+  margin-bottom: 2rem;
+  background-blend-mode: overlay;
+}
+.mh{
+  min-height: 150px;
+  min-width: 70px;
+}
+.slick-dots li.slick-active button:before{
+  color: #fff;
+
+}
+.slick-dots li button:before{
+  color: rgb(30, 3, 237);
+
+}
